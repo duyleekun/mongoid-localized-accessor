@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 Include this into the model defitition
 ```ruby
-include Mongoid::Document::Localized::Accessor
+include Mongoid::Localized::Accessor
 ```
 Field definition
 ```ruby
