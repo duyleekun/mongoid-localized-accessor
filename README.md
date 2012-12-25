@@ -17,7 +17,10 @@ Or install it yourself as:
     $ gem install mongoid-localized-accessor
 
 ## Usage
-
+Include this into the model defitition
+```ruby
+include Mongoid::Document::Localized::Accessor
+```
 Field definition
 ```ruby
 field :name, type: String, localize: true
